@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#07101c"/>
+<style>.t{font-family:Arial,sans-serif;fill:#eef6ff}.h{font-weight:700;font-size:30px}.s{font-size:19px}.b{fill:#0e1d30;stroke:#42b9e8;stroke-width:2}.p{fill:#151b28;stroke:#78879c;stroke-width:2}</style>
+<text x="60" y="60" class="t h">Nexus Memory Kernel — Publication Boundary</text>
+<rect x="70" y="105" width="500" height="520" rx="18" class="b"/>
+<text x="320" y="150" text-anchor="middle" class="t h">PUBLIC KERNEL</text>
+<text x="110" y="210" class="t s">• scoped memory records</text>
+<text x="110" y="255" class="t s">• session and temporal recall</text>
+<text x="110" y="300" class="t s">• correction / supersession</text>
+<text x="110" y="345" class="t s">• provenance and receipts</text>
+<text x="110" y="390" class="t s">• memory capability registry</text>
+<text x="110" y="435" class="t s">• memory execution gateway</text>
+<text x="110" y="480" class="t s">• optional semantic adapter</text>
+<text x="110" y="525" class="t s">• isolation / persistence tests</text>
+<rect x="630" y="105" width="500" height="520" rx="18" class="p"/>
+<text x="880" y="150" text-anchor="middle" class="t h">OUTSIDE THIS REPO</text>
+<text x="675" y="210" class="t s">• production schemas / queries</text>
+<text x="675" y="255" class="t s">• host context composition</text>
+<text x="675" y="300" class="t s">• identity / behavior composition</text>
+<text x="675" y="345" class="t s">• global capability orchestration</text>
+<text x="675" y="390" class="t s">• provider / model infrastructure</text>
+<text x="675" y="435" class="t s">• deployment configuration</text>
+<text x="675" y="480" class="t s">• private runtime heuristics</text>
+<text x="675" y="525" class="t s">• real user data and traces</text>
+<text x="60" y="690" class="t s">Public reference surface != private runtime assembly.</text>
+</svg>

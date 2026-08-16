@@ -1,0 +1,43 @@
+{
+  "artifact": "nexus-memory-kernel",
+  "version": "0.1.0",
+  "status": "public-reference",
+  "claims": [
+    {
+      "claim": "All six public memory capabilities execute through the bounded capability executor.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_all_capabilities.py"]
+    },
+    {
+      "claim": "Trusted scope cannot be overridden through capability arguments.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_executor.py", "tests/test_isolation.py"]
+    },
+    {
+      "claim": "Cross-user search, inspect, correction, and supersession are blocked by scope.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_isolation.py"]
+    },
+    {
+      "claim": "Correction preserves supersession lineage rather than silently replacing history.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_correction.py"]
+    },
+    {
+      "claim": "SQLite persistence survives store reopen.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_persistence.py"]
+    },
+    {
+      "claim": "Optional semantic ranking receives only already-scoped candidates.",
+      "evidence_level": "TESTED",
+      "evidence": ["tests/test_semantic_adapter.py"]
+    }
+  ],
+  "non_claims": [
+    "This repository does not reproduce Nexus Synapse.",
+    "This repository is not evidence of current production Nexus memory behavior.",
+    "This repository does not contain the private general-purpose runtime executor.",
+    "This repository does not contain production schemas or production query logic."
+  ]
+}
