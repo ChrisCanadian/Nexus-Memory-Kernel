@@ -1,8 +1,12 @@
-# Nexus Memory Kernel — Draft Public Extraction
+# Nexus Memory Kernel
 
 > A bounded reference kernel for scoped persistent memory, recall, correction, provenance, and memory-capability execution.
 
-**Status:** public reference implementation
+**Status:** public reference implementation  
+**Version:** 0.1.0  
+**License:** Apache-2.0
+
+![Nexus Memory Kernel flow](diagrams/memory_kernel_flow.svg)
 
 ## Why this exists
 
@@ -63,6 +67,8 @@ These names and implementations are intentionally generic. They are a public ref
 
 ## Public boundary
 
+![Nexus Memory Kernel publication boundary](diagrams/memory_kernel_layers.svg)
+
 This repository intentionally excludes private production schemas, query logic, context-composition rules, global capability orchestration, runtime configuration, deployment details, credentials, and real user data.
 
 See [`PUBLIC_BOUNDARY.md`](PUBLIC_BOUNDARY.md).
@@ -86,5 +92,7 @@ This repository is intended to demonstrate only that:
 4. temporal recall can be deterministic and testable;
 5. durable mutations can emit inspectable receipts;
 6. semantic ranking can be optional and operate only over already-scoped candidates.
+
+See [`evidence/claims-and-evidence.json`](evidence/claims-and-evidence.json) for the machine-readable claim boundary.
 
 It does **not** reproduce Nexus Synapse.
