@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#07101c"/>
+<style>.t{font-family:Arial,sans-serif;fill:#eef6ff}.h{font-weight:700;font-size:30px}.s{font-size:19px}.b{fill:#0e1d30;stroke:#42b9e8;stroke-width:2}.a{stroke:#65d3ff;stroke-width:3;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#65d3ff"/></marker></defs>
+<text x="60" y="60" class="t h">Nexus Memory Kernel — Public Reference Flow</text>
+<rect x="380" y="95" width="440" height="70" rx="14" class="b"/><text x="600" y="138" text-anchor="middle" class="t s">Caller / Model / Host Runtime</text>
+<path d="M600 165 V215" class="a"/>
+<rect x="380" y="220" width="440" height="70" rx="14" class="b"/><text x="600" y="263" text-anchor="middle" class="t s">Memory Capability Registry</text>
+<path d="M600 290 V340" class="a"/>
+<rect x="310" y="345" width="580" height="125" rx="14" class="b"/>
+<text x="600" y="382" text-anchor="middle" class="t s">Memory Capability Executor</text>
+<text x="600" y="414" text-anchor="middle" class="t s">trusted scope • read/write authority • validation • dispatch</text>
+<text x="600" y="446" text-anchor="middle" class="t s">normalized result • mutation receipt</text>
+<path d="M600 470 V520" class="a"/>
+<rect x="270" y="525" width="660" height="110" rx="14" class="b"/>
+<text x="600" y="560" text-anchor="middle" class="t s">Scoped Persistent Memory</text>
+<text x="600" y="592" text-anchor="middle" class="t s">session • structured • temporal • correction • supersession • provenance</text>
+<text x="600" y="624" text-anchor="middle" class="t s">optional semantic ranker works only inside already-scoped candidates</text>
+<text x="60" y="690" class="t s">Model proposal != trusted scope != execution authority != durable mutation.</text>
+</svg>
