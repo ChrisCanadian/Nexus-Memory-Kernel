@@ -1,6 +1,7 @@
 {
   "artifact": "nexus-memory-kernel",
-  "status": "review-candidate",
+  "version": "0.1.0",
+  "status": "public-reference",
   "claims": [
     {
       "claim": "All six public memory capabilities execute through the bounded capability executor.",
