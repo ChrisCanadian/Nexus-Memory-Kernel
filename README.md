@@ -82,6 +82,10 @@ python examples/basic_demo.py
 
 The reference kernel requires only the Python standard library.
 
+## Attribution and provenance
+
+See [`ATTRIBUTION.md`](ATTRIBUTION.md) for authorship, the bounded Nexus adaptation relationship, external-component boundaries, and permission scope.
+
 ## Narrow claim set
 
 This repository is intended to demonstrate only that:
